@@ -1,48 +1,42 @@
 import React, { Component } from "react";
+import {Link} from 'react-router-dom';
 // import {Card} from "react_bootstarp";
 
 import axios from "axios";
 import myList from "./MyList";
 import Meals from "./Meals";
-
+import moment from "moment";
 class Home extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      Meals: [Meals.meals]
+      Meals: [Meals.meals],
+      time: ""
     };
   }
 
   
 
   // / Api for time ///
-  setInterval() {
-    axios({
-      method: "GET",
-      url: `https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js`
-    })
-      .then(res => {
-        console.log(res);
-        const moment = res.data;
-        const time = document.querySelector("#time");
-        time.innerText = moment().format('dddd');
-      }, 1000)
+ 
 
-      .catch(err => {
-        console.log(err);
-      });
-  }
+  componentDidMount() {
+    setInterval(()=>{
+      this.setState({
+        time:moment().format('LT')
+      })
+    }, 1000);
+    }
 
   render() {
     // map over shows prop and make a array of li's that shows show name
     const myListItems = Meals.map((item, index) => {
       return (
-      
-        <div>
+        
           <div className="card">
             <div className="img">
-            <img src={item.strMealThumb} width="100%" height="50%" />
+            <img src={item.strMealThumb} width="100%" height="250" />
             </div>
             <div class="container">
               <h4>
@@ -50,12 +44,11 @@ class Home extends Component {
               </h4>
               <br></br>
               <button onClick={() => this.props.addToList(item)}> Add </button>
-              <button onClick={() => <a href="./MyList"></a>}>
-                Go to list
-              </button>
+              <Link to='/MyList'> <button>Go to List</button></Link>
             </div>
           </div>
-        </div>
+         
+        
       );
     });
 
@@ -63,12 +56,12 @@ class Home extends Component {
 
     return (
       <div>
-        <div> <h1>{this.setInterval}</h1> </div>
+         <h1 style={{float:"right", color:"black", fontSize:"30px"}}>{this.state.time}</h1> 
         
-        <h1> Food Club</h1>
-        <p> Welcome </p>
+        <h1 id="header"> Salad Club </h1>
+        
         <hr />
-
+        
         <ul>{myListItems}</ul>
         
       </div>
