@@ -44,10 +44,10 @@ Errors.js
 
 ## Functions:
 
--addToList (Add new item to list)
--removeItem (Remove only selected item)
--removeAll (Remove all items from list)
--componentDidMount (Api for Time)
+- addToList (Add new item to list)
+- removeItem (Remove only selected item)
+- removeAll (Remove all items from list)
+- componentDidMount (Api for Time)
 
 ## Prerequisites:
 ​
