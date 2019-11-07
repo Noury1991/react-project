@@ -62,7 +62,7 @@ Cloning and Running the Application in local
 
 npm install
 ​In order to run the application on your computer Type the following command​
-
+ 
 npm start
 ​Usually The Application Runs on localhost:3000​
 
