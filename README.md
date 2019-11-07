@@ -3,50 +3,51 @@ Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
-What's the project ?
+## What's the project ?
 It's website for salad recipes created with React-JavaScript
 
-Demo:
+## Demo:
 Salad Club
 
+[Wireframe](salad.png)
 
-​This Project is a Simple ReactJS Project which demonstrates the following:
+​## This Project is a Simple ReactJS Project which demonstrates the following:
 
-Create a React Component
-Making HTTP calls
-Connection between components and pass info
-Styling with CSS
-Using Routing-React-Dom
-Using one api's (for Time)​​
-Live Application URL
+-Create a React Component
+-Making HTTP calls
+-Connection between components and pass info
+-Styling with CSS
+-Using Routing-React-Dom
+-Using one api's (for Time)​​
+-Live Application URL
 ​
  
-https://github.com/Noury1991/react-project
-This URL has the application deployed in, Click on the link to see the website
+[see the app in action](https://github.com/Noury1991/react-project)
 
-Technologies:
 
-1-React js
-2-Postman
-3-JSX​​
-4-CSS
-5-Api
+## Technologies:
 
-Components:
+- [x] React js
+- [x]Postman
+- [x]JSX​​
+- [x]CSS
+- [x]Api
+
+## Components:
 
 Home.js
 MyList.js
 About.js
 Errors.js
 
-Functions:
+## Functions:
 
-addToList (Add new item to list)
-removeItem (Remove only selected item)
-removeAll (Remove all items from list)
-componentDidMount (Api for Time)
+-addToList (Add new item to list)
+-removeItem (Remove only selected item)
+-removeAll (Remove all items from list)
+-componentDidMount (Api for Time)
 
-Prerequisites:
+## Prerequisites:
 ​
 Install Node JS
 ​https://nodejs.org/en/ to install nodejs​
@@ -62,20 +63,20 @@ Cloning and Running the Application in local
 
 npm install
 ​In order to run the application on your computer Type the following command​
- 
+
 npm start
 ​Usually The Application Runs on localhost:3000​
 
-Resources
+## Resources:
 ​ReactJS : https://reactjs.org/​React CSS: https://css-tricks.com
 
-further improment :
-1-add profile component page to each user.
-2-add sign in and sign out.
-3-add search form.
-4-add connect icons.
-5-add Recipes to website.
-6-make it with smart devices version. 
+## Further improment :
+- [ ] add profile component page to each user.
+- [ ] add sign in and sign out.
+- [ ] add search form.
+- [ ] add connect icons.
+- [ ] add Recipes to website.
+- [ ] make it with smart devices version. 
 
-Feedback and issues:
+## Feedback and issues:
 I really appreciate your feedback. I'll be really grateful if you can drop me an email to no_-_no@hotmail.com
