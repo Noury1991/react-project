@@ -13,13 +13,13 @@ Salad Club
 
 ​## This Project is a Simple ReactJS Project which demonstrates the following:
 
--Create a React Component
--Making HTTP calls
--Connection between components and pass info
--Styling with CSS
--Using Routing-React-Dom
--Using one api's (for Time)​​
--Live Application URL
+- Create a React Component
+- Making HTTP calls
+- Connection between components and pass info
+- Styling with CSS
+- Using Routing-React-Dom
+- Using one api's (for Time)​​
+- Live Application URL
 ​
  
 [see the app in action](https://github.com/Noury1991/react-project)
@@ -37,10 +37,11 @@ Salad Club
 
 ## Components:
 
-Home.js
-MyList.js
-About.js
-Errors.js
+- Home.js
+- MyList.js
+- About.js
+- Errors.js
+- Meals.js
 
 ## Functions:
 
