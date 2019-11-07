@@ -27,11 +27,11 @@ Salad Club
 
 ## Technologies:
 
-- [x] React js
-- [x]Postman
-- [x]JSX​​
-- [x]CSS
-- [x]Api
+- [ ] React js
+- [ ] Postman
+- [ ] JSX​​
+- [ ] CSS
+- [ ] Api
 
 ## Components:
 
