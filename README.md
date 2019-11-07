@@ -1,68 +1,81 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+What's the project ?
+It's website for salad recipes created with React-JavaScript
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Demo:
+Salad Club
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+​This Project is a Simple ReactJS Project which demonstrates the following:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Create a React Component
+Making HTTP calls
+Connection between components and pass info
+Styling with CSS
+Using Routing-React-Dom
+Using one api's (for Time)​​
+Live Application URL
+​
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://github.com/Noury1991/react-project
+This URL has the application deployed in, Click on the link to see the website
 
-### `npm run eject`
+Technologies:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1-React js
+2-Postman
+3-JSX​​
+4-CSS
+5-Api
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Components:
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Home.js
+MyList.js
+About.js
+Errors.js
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Functions:
 
-## Learn More
+addToList (Add new item to list)
+removeItem (Remove only selected item)
+removeAll (Remove all items from list)
+componentDidMount (Api for Time)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Prerequisites:
+​
+Install Node JS
+​https://nodejs.org/en/ to install nodejs​
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Install create-react-app
+​Install create-react-app npm package globally. to run the project easily, install it by this command below​
 
-### Code Splitting
+npm install -g create-react-app
+​
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Cloning and Running the Application in local
+​Clone the project into local​Install all the npm packages. Go into the project folder and type the following command to install all npm packages​
 
-### Analyzing the Bundle Size
+npm install
+​In order to run the application on your computer Type the following command​
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+npm start
+​Usually The Application Runs on localhost:3000​
 
-### Making a Progressive Web App
+Resources
+​ReactJS : https://reactjs.org/​React CSS: https://css-tricks.com
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+further improment :
+1-add profile component page to each user.
+2-add sign in and sign out.
+3-add search form.
+4-add connect icons.
+5-add Recipes to website.
+6-make it with smart devices version. 
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Feedback and issues:
+I really appreciate your feedback. I'll be really grateful if you can drop me an email to no_-_no@hotmail.com

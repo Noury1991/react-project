@@ -19,8 +19,6 @@ class Home extends Component {
   
 
   // / Api for time ///
- 
-
   componentDidMount() {
     setInterval(()=>{
       this.setState({
@@ -29,6 +27,7 @@ class Home extends Component {
     }, 1000);
     }
 
+    
   render() {
     // map over shows prop and make a array of li's that shows show name
     const myListItems = Meals.map((item, index) => {
