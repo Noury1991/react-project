@@ -27,7 +27,9 @@ Salad Club
 
 ## Technologies:
 
+- [ ] HTML
 - [ ] React js
+- [ ] JavaScript
 - [ ] Postman
 - [ ] JSX​​
 - [ ] CSS
